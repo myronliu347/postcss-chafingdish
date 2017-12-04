@@ -3,6 +3,5 @@
 //
 // null == always enable (& no caniuse data)
 export default {
-  initial: [ "css-all", "css-initial-value" ],
-  rem: [ "rem" ]
+  initial: [ "css-all", "css-initial-value" ]
 }

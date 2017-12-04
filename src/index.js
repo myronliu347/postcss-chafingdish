@@ -16,7 +16,7 @@ const plugin = postcss.plugin("postcss-salad", (options) => {
   const features = options.features
 
   // copy browsers option to plugins that supports it
-  const pluginsToPropagateBrowserOption = [ "autoprefixer", "rem" ]
+  const pluginsToPropagateBrowserOption = [ "autoprefixer" ]
 
   pluginsToPropagateBrowserOption.forEach((name) => {
     const feature = features[name]
